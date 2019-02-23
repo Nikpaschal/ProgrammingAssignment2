@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-## Next function firtsly checks whether the inverse of x has 
+## Next function firstly checks whether the inverse of x has 
 ## been computed. If so, it gets it from cache and skips computation. 
 ## Otherwise, it calculates the inverse of x (using Solve()) 
 ## and sets the value of the inverse in the cache via the setinverse function.
